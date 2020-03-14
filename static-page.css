@@ -1,0 +1,78 @@
+
+		.containerskills {
+			background-color: #cecece
+		}
+		.breadcrumbs_options {
+	color: #8c8c8c;    margin: 0;
+
+        }iframe{border:0}
+.breadcrumbs_options li {
+	font-weight: bold;
+	color: #7e7e7e;
+	font-size: 11px;
+	    margin: 0 2px;
+  display: inline;
+}
+.breadcrumbs_options a {
+	font-weight: bold;
+	color: #7e7e7e;
+}
+		  .single-post-title {
+		       margin: 10px 0 46px 0;
+    padding: 10px 0px 20px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 22px;
+    text-align: center;}
+		.post-body,
+		.post-body div,
+		.post-body p,
+		.post-body span {
+			color: #333;
+			font-weight: 300;
+			font-style: normal;
+			font-size: 1rem !important;
+			margin: 10px 0 20px 0
+		}
+		
+		.post-body img {
+			max-width: 100%;
+			height: auto;
+			border: 1px solid #eee;
+			box-shadow: -1px 3px 15px 0 rgba(222, 222, 222, .66);
+			outline: 1px solid #e6e6e6;
+			outline-offset: -1px
+		}
+		.skills {
+			padding-top: 2px;
+			padding-bottom: 4px
+		}
+		.html12 {
+			width: 80%;
+			background-color: #4caf50;
+			border-radius: 5px;
+			height: 1px
+		}
+		.css12 {
+			width: 70%;
+			background-color: #2196f3;
+			border-radius: 5px;
+			height: 1px
+		}
+		.Photoshop12 {
+			width: 95%;
+			background-color: #f44336;
+			border-radius: 5px;
+			height: 1px
+		}
+		.Premier12 {
+			width: 80%;
+			background-color: grey;
+			border-radius: 5px;
+			height: 1px
+		}
+		.AfterEffects12 {
+			width: 50%;
+			background-color: #804080;
+			border-radius: 5px;
+			height: 1px
+		}
