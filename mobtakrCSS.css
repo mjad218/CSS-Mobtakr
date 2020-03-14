@@ -73,7 +73,7 @@ object {
 div,
 span {
 	line-height: 2
-}
+} 
 a {
 	text-decoration: none;    transition: .3s;
 
