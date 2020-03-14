@@ -96,10 +96,10 @@
 		blockquote:before {
 			     font-size: 25px!important;
     position: absolute;
-    content: &quot;\f10e&quot;;
+    content:'\f10e';
     margin-right: -52px;
     opacity: .5;
-    font-family: &quot;Font Awesome 5 Free&quot;;
+    font-family:'Font Awesome 5 Free';
     font-weight: 900;
     font-style: normal;
 		}
