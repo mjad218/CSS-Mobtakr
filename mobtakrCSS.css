@@ -110,7 +110,8 @@ a {
 .header_main_wrapper {
 	border-bottom: 1px solid #b1b1b1;
 	width: 100%;
-	background: #fafafa;
+	background: #fafafa;    padding-bottom: 20px;
+
 }
 span.fn {
     float: right;
