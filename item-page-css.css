@@ -13,12 +13,12 @@
   display: inline;
 }
 .breadcrumbs_options a {
-	font-weight: bold;
+	font-weightF bold;
 	color: #7e7e7e;
 }
 		.postcontent a:before, .readalso a:before {
-			font-family: &quot;font awesome 5 free&quot;;
-			content: &quot;\f060&quot;;
+			font-family: 'font awesome 5 free';
+			content: '\f060';
 			font-weight: bold;
 			margin-left: 5px;
 			font-size: 12px
@@ -158,9 +158,9 @@
 			width: 100%;
 			right: 0
 		}a.comment-reply::before {
-			font-family: &quot;Font Awesome 5 Free&quot;;
+			font-family: 'Font Awesome 5 Free';
 			font-weight: 900;
-			content: &quot;\f3e5&quot;;
+			content: '\f3e5';
 			margin-left: 3px
 		}
 		.code {
@@ -341,8 +341,8 @@
 
 
 span.thread-toggle a:before {
-		    content: &quot;\f070&quot;;
-		    font-family: &quot;Font Awesome 5 Free&quot;;
+		    content: '\f070';
+		    font-family: 'Font Awesome 5 Free';
 		    font-weight: 900;
 		    margin-left: 5px;
 		}
@@ -404,9 +404,9 @@ span.thread-toggle a:before {
 		    color: #58a93e;
 		    background: #e0e0e0;}
 		.downloadzer a:before {
-			font-family: &quot;Font Awesome 5 Free&quot;;
+			font-family: 'Font Awesome 5 Free';
 			font-weight: 900;
-			content: &quot;\f019&quot;;
+			content: '\f019';
 			padding: 0 10px 0 7px
 		}
 		.downloadzer {
@@ -427,10 +427,10 @@ span.thread-toggle a:before {
 			box-shadow: inset 1px -1px 10px #0000001f
 		}
 		span.pric3e:before {
-			font-family: &quot;Font Awesome 5 free&quot;;
+			font-family: 'Font Awesome 5 free';
 			font-weight: 900;
 			margin: 0 5px;
-			content: &quot;\f07a&quot;
+			content: '\f07a';
 		}
 		.co0de {    background-color: #e3f0f3;
     border: 2px dashed #b1acac;
@@ -490,9 +490,9 @@ span.thread-toggle a:before {
 			box-shadow: inset 1px -1px 10px #0000001f
 		}
 		span.buyamazon a:before {
-			font-family: &quot;Font Awesome 5 brands&quot;;
+			font-family: 'Font Awesome 5 brands';
 			font-weight: 900;
-			content: &quot;\f270&quot;;
+			content: '\f270';
 			margin: 0 5px
 		}
 		span.buysouq {
@@ -509,7 +509,7 @@ span.thread-toggle a:before {
 			box-shadow: inset 1px -1px 10px #0000001f
 		}
 		span.buysouq a:before {
-			content: &quot;Souq&quot;;
+			content: 'Souq';
 			margin: 0 5px
 		}
 		
