@@ -245,6 +245,7 @@ text-align: right;
 	width: 100%
 }
 .g-profile .author_avatar {width: 20px; border-radius: 100%; margin-left: 5px; float: right;}
+
 .list-label-widget-content h5:before {
     content: '\f02e';
     font-family: 'Font Awesome 5 Free';
