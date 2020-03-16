@@ -27,7 +27,8 @@
 hr {
     border-top: 1px solid #c7c7c7;
 }
-#mainmenu::-webkit-scrollbar-thumb {
+#mainmenu::-webkit-scroll
+bar-thumb {
     background-color: #82888e;
 }
 #mainmenu::-webkit-scrollbar-track {
@@ -243,7 +244,7 @@ text-align: right;
 .sidebar .widget-content {
 	width: 100%
 }
-g-profile .author_avatar{width: 20px; border-radius: 100%; margin-left: 5px; float: right;}
+.g-profile .author_avatar {width: 20px; border-radius: 100%; margin-left: 5px; float: right;}
 .list-label-widget-content h5:before {
     content: '\f02e';
     font-family: 'Font Awesome 5 Free';
