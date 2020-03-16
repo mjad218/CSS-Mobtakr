@@ -243,14 +243,8 @@ text-align: right;
 .sidebar .widget-content {
 	width: 100%
 }
-.g-profile:before {
-    content: '\f007';
-    font-family: 'Font Awesome 5 Free' ;
-    font-weight: 900;
-    float: right;
-    margin: 0 0 0 5px;
-    color: #16a085;
-}.list-label-widget-content h5:before {
+g-profile .author_avatar{width: 20px; border-radius: 100%; margin-left: 5px; float: right;}
+.list-label-widget-content h5:before {
     content: '\f02e';
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
