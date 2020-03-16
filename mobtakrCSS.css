@@ -26,7 +26,7 @@ hr {
     border-top: 1px solid #c7c7c7;
 }
 #mainmenu::-webkit-scrollbar-thumb{
-    background-color: #82888e;
+    background-color: #82888e78;
 }
 header,html,body {	width: 100%;
 margin: 0;
