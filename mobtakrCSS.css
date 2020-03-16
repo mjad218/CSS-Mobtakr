@@ -19,21 +19,16 @@
 * {
 	box-sizing: border-box
 }
-
 #mainmenu::-webkit-scrollbar {
-    background-color: #7d3b3b00;
     height: 8px;
 }
 hr {
     border-top: 1px solid #c7c7c7;
 }
-#mainmenu::-webkit-scroll
-bar-thumb {
+#mainmenu::-webkit-scrollbar-thumb{
     background-color: #82888e;
 }
-#mainmenu::-webkit-scrollbar-track {
-    background-color: #d4d4d4;
-}header,html,body {	width: 100%;
+header,html,body {	width: 100%;
 margin: 0;
 	padding: 0;
 }
