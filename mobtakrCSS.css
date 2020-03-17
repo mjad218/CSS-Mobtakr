@@ -241,7 +241,13 @@ text-align: right;
 .sidebar .widget-content {
 	width: 100%
 }
-.g-profile .author_avatar {width: 20px; border-radius: 100%; margin-left: 5px; float: right;}
+.g-profile .author_avatar {
+    width: 15px;
+    border-radius: 100%;
+    margin-left: 5px;
+    float: right;
+    margin-top: 3px;
+    margin-right: 5px;}
 
 .list-label-widget-content h5:before {
     content: '\f02e';
