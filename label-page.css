@@ -1,0 +1,27 @@
+		.status-msg-body {
+		         margin-bottom: 50px;
+    text-align: center;
+    background: #f3f3f3;
+    padding: 11px 0;
+    border: 1px solid #e6e6e6;}
+		.status-msg-body img  {     width: 96px;
+		    margin-left: 6%;
+		    float: right;}
+		.status-msg-body a {
+			color: #2a4057
+		}.breadcrumbs_options {
+	color: #8c8c8c;    margin: 0;
+
+}
+.breadcrumbs_options li {
+	font-weight: bold;
+	color: #7e7e7e;
+	font-size: 11px;
+	    margin: 0 2px;
+  display: inline;
+}
+.breadcrumbs_options a {
+	font-weight: bold;
+	color: #7e7e7e;
+}
+		 .status-msg-body h1 {font-size:30px;text-align: center;font-family:rakkas;}
