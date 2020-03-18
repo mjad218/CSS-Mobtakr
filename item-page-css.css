@@ -421,7 +421,7 @@ span.thread-toggle a:before {
 			content: '\f019';
 			padding: 0 2px 0 7px
 		}
-		.downloadzer {
+		.downloadzer,.showsamp {
 			text-align: center;
 			margin: 25px
 		}
