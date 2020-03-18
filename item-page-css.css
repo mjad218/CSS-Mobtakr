@@ -392,14 +392,26 @@ span.thread-toggle a:before {
 		.downloadzer a {
 		background: #63bd46;
 		    color: #fff;
-		    padding: 10px 25px;
+		    padding: 10px 20px;
 		    transition: .2s;
 		    border-radius: 5px;
-		    font-size: 24px;
+		    font-size: 20px;
 		    box-shadow: 1px 1px 8px 0 #8080808f;
 		}
-		
-		.downloadzer a:hover {
+.showsamp a{    background: #ff9456;
+    color: #fff;
+    padding: 10px 15px;
+    transition: .2s;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 1px 1px 8px 0 #8080808f;}
+.showsamp a:before {
+    font-family: 'font awesome 5 free';
+    font-weight: 900;
+    content: "\f06e";
+    padding: 0 2px 0 7px;
+}
+		.downloadzer a:hover,.showsamp a:hover {
 		    text-decoration: none;
 		    color: #58a93e;
 		    background: #e0e0e0;}
@@ -407,7 +419,7 @@ span.thread-toggle a:before {
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 900;
 			content: '\f019';
-			padding: 0 10px 0 7px
+			padding: 0 2px 0 7px
 		}
 		.downloadzer {
 			text-align: center;
