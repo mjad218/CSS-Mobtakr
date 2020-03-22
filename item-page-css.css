@@ -24,6 +24,12 @@
 			font-size: 12px
 		}.post-body details {
     margin: 20px 0;
+}kbd {
+    background: #d4d4d4;
+    border-radius: 3px;
+    border: 1px solid #a7a7a7;
+    padding: 2px 5px;
+    box-shadow: 1px 1px 1px #949494;
 }
 		.readalso {
     border-right: 3px solid #55a797;
