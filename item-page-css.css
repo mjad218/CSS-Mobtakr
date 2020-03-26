@@ -12,6 +12,10 @@
 	    margin: 0 2px;
   display: inline;
 }
+td,th{
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
 .breadcrumbs_options a {
 	font-weightF bold;
 	color: #7e7e7e;
