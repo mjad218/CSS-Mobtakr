@@ -85,7 +85,7 @@ a {
 	height: 50px;
     box-shadow: 0 1px 6px 0 #2f2f2f69;
 }.menu-item a:hover {
-    background: #d3d3d3;
+    border-bottom: 2px solid #0c6;
 }.up-arrow {
     position: fixed;
     bottom: 50px;
@@ -158,18 +158,16 @@ li.menu-item i {
     white-space: nowrap;
 }
 .menu-item {
-	display: inline-block
+	display: inline-block;    padding: 0 10px;
+
 }div#FeaturedPost1 p {
     margin-bottom: 25px;
 }
 .menu-item a {
-	    font-family: rakkas;
-    color: #2d3e51;
-    display: block;
+	      font-family: rakkas;
+    color: #353535;
     font-size: 13px;
-    line-height: 48px;
-    padding: 6px 14px;
-    text-decoration: none;
+    padding: 10px 0px;
 }
 
 .contact-form-widget .contact-form-email, .contact-form-widget .contact-form-name ,.contact-form-widget .contact-form-email-message{
