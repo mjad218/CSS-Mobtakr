@@ -31,7 +31,7 @@
 			position: relative;
 			margin-right: 23px;
 			display: inline-block;
-			width: 50%
+			width: 50%;    text-align: right;
 		}
 
 		.feature-item img {
