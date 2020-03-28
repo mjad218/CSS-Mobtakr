@@ -1,4 +1,4 @@
-	.eight-columns ul{margin:0; list-style:none}.post_loop_content br {
+.eight-columns ul{margin:0; list-style:none}.post_loop_content br {
     display: none;
 }
 		.blog-pager a {
@@ -21,7 +21,7 @@
 		}
 
 		  .loop-post-content {
-			margin: 40px 0;
+			margin-bottom: 40px;
 			width: 100%;
 			background: #fff;
 			padding:15px 10px;
@@ -31,7 +31,7 @@
 			position: relative;
 			margin-right: 23px;
 			display: inline-block;
-			width: 50%;    text-align: right;
+			width: 50%
 		}
 
 		.feature-item img {
