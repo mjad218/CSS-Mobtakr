@@ -5,8 +5,9 @@
 	padding: 0 20px
 }
 .eight-columns {
+    border-left: 1px solid #e6e6e6;
     padding-left: 15px;
-    width: 65%;
+    width: 68%;
     display: inline-block;
 }.sidebar {       margin-right: 2.12766%;
     overflow: hidden;
@@ -25,7 +26,7 @@ hr {
     border-top: 1px solid #c7c7c7;
 }
 #mainmenu::-webkit-scrollbar-thumb{
-    background-color: #e8e8e8;
+    background-color: #82888e78;
 }
 header,html,body {	width: 100%;
 margin: 0;
@@ -35,6 +36,8 @@ body {
 	font: 14px/1.615em Tajawal!important;
 	background: #fafafa;
 	color: #222;    overflow-x: hidden;
+	padding-top: 50px !important;
+
 }
 		.post-comments:before {
     content: '\f086';
@@ -81,11 +84,14 @@ a {
 	width: 100%;
 	background: #2a4057;
 	padding: 4px 5% 4px 5%;
+	position: fixed;
+	top: 0;
+	z-index: 9999;
 	opacity: .9;
 	height: 50px;
     box-shadow: 0 1px 6px 0 #2f2f2f69;
 }.menu-item a:hover {
-    border-bottom: 2px solid #0c6;
+    background: #d3d3d3;
 }.up-arrow {
     position: fixed;
     bottom: 50px;
@@ -100,9 +106,9 @@ a {
     left: 59px;
 }
 .header_main_wrapper {
-	    border-bottom: 1px solid #e6e6e6;
-    width: 100%;
-    margin-top: 35px;
+	border-bottom: 1px solid #b1b1b1;
+	width: 100%;
+	background: #fafafa;    padding-bottom: 20px;
 
 }
 span.fn {
@@ -145,31 +151,40 @@ li.menu-item i {
     margin-left: 5px;
 }
 .dropdown-content{
-	    margin-right: 150px!important;
+	    margin-right: 80px!important;
     margin: 0 13px;
     padding: 0 5px;
     line-height: 0;
     list-style: none;
     height: 0;
     overflow: hidden;
+    box-shadow: 0px 2px #c3c3c3;
     height: 60px;
+    background-color: #eee;
     margin-bottom: 45px;
     overflow-x: auto;
     white-space: nowrap;
 }
 .menu-item {
-	display: inline-block;    padding: 0 10px;
-
+	display: inline-block
 }div#FeaturedPost1 p {
     margin-bottom: 25px;
 }
 .menu-item a {
-	      font-family: rakkas;
-    color: #353535;
+	    font-family: rakkas;
+    color: #2d3e51;
+    display: block;
     font-size: 13px;
-    padding: 10px 0px;
+    line-height: 48px;
+    padding: 6px 14px;
+    text-decoration: none;
 }
-
+.headerrr {
+	box-shadow: 0px 2px #c3c3c3;
+	min-height: 60px;
+	background-color: #eee;
+	margin-bottom: 25px
+}
 .contact-form-widget .contact-form-email, .contact-form-widget .contact-form-name ,.contact-form-widget .contact-form-email-message{
     min-height: 43px;
 	font-family: tajawal;
@@ -287,7 +302,6 @@ text-align: right;
     transition: .3s;
 }
 .row.main_content {
-	text-align:center; 
     margin-top: 30px;
 }
 .about-website p {
