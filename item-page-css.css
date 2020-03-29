@@ -11,7 +11,8 @@
 iframe {
     border: 0
 }
-
+.breadcrumbs_options span ,.breadcrumbs_options li em {    color: #7e7e7e;
+}
 .breadcrumbs_options li {
     font-weight: 700;
     color: #7e7e7e;
