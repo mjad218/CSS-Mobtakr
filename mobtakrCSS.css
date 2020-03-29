@@ -30,13 +30,11 @@ hr {
 }
 header,html,body {	width: 100%;
 margin: 0;
-	padding: 0;
 }
 body {
 	font: 14px/1.615em Tajawal!important;
 	background: #fafafa;
 	color: #222;    overflow-x: hidden;
-	padding-top: 50px !important;
 
 }
 		.post-comments:before {
@@ -84,9 +82,6 @@ a {
 	width: 100%;
 	background: #2a4057;
 	padding: 4px 5% 4px 5%;
-	position: fixed;
-	top: 0;
-	z-index: 9999;
 	opacity: .9;
 	height: 50px;
     box-shadow: 0 1px 6px 0 #2f2f2f69;
