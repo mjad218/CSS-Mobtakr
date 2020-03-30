@@ -204,15 +204,15 @@ blockquote:before {
 }
 
 .single-post-title {
-    border-right: 4px solid #1f76ce;
-    color: #1f76ce!important;
+     border-right: 4px solid #16a085;
+    color: #16a085!important;
     display: block;
     margin-top: 8px;
     padding: 10px 10px 20px 0;
     border-bottom: 1px solid #eee;
-    font-size: 23px;
+    font-size: 30px;
     font-family: rakkas;
-    line-height: 40px
+    line-height: 45px;
 }
 
 .post-body,
