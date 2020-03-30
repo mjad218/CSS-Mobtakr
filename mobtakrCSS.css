@@ -93,8 +93,10 @@ a {
 }
 .header_main_wrapper {
     border-bottom: 1px solid #e6e6e6;
-	width: 100%;
-	background: #fff;  
+    width: 100%;
+    background: #fff;
+    padding: 20px 0;
+    height: 100px;
 }.headerrr {
     padding-top: 20px;
 }
