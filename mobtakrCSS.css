@@ -356,14 +356,15 @@ input.follow-by-email-address, .follow-by-email-inner {
 	display: block;
 	font-family: rakkas
 }
-.dropbtn {font-family: rakkas;
-	display: none;
-	line-height: 43px;
-	background-color: unset;
-	color: #2a4057;
-	font-size: 16px;
-	border: 0;
-	 padding-top: 5px;
+.dropbtn {    font-family: rakkas;
+    display: none;
+    line-height: 43px;
+    background-color: unset;
+    color: #2a4057;
+    font-size: 16px;
+    border: 0;
+    padding-top: 5px;
+    float: left;
 }
 .menu-item&gt;h3:hover {
 	background-color: #e3e6e7
@@ -463,7 +464,9 @@ form#searchbox {
 .sidebar {
     width: 95%;
     padding: 20px 5%;
-	}.header-top-left {display: block ; width: 100%}
+	}.header-top-left {    display: inline-block;
+    width: 110px;
+    float: right;}
 .dropdown-content {
 		opacity: 0;
 		height: 0;
