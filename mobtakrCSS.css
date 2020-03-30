@@ -363,7 +363,7 @@ input.follow-by-email-address, .follow-by-email-inner {
 	color: #2a4057;
 	font-size: 16px;
 	border: 0;
-	height: 0;    padding-top: 5px;
+	 padding-top: 5px;
 }
 .menu-item&gt;h3:hover {
 	background-color: #e3e6e7
@@ -484,7 +484,7 @@ form#searchbox {
 	}
 	.dropbtn {
 		display: block !important;
-		width: 33%
+
 	}
 	.dropdown:hover .dropdown-content {
 		visibility: visible;
