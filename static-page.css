@@ -69,8 +69,17 @@
 			background-color: grey;
 			border-radius: 5px;
 			height: 1px
-		}
-		.AfterEffects12 {
+		}.email-sub {
+    background: #fff;
+    margin: 30px 0;
+    padding: 25px 10px;
+    border: 1px solid #e6e6e6;
+}
+.eight-columns {
+    width: 68%;
+    display: block !important;
+    margin: 20px auto;
+}		.AfterEffects12 {
 			width: 50%;
 			background-color: #804080;
 			border-radius: 5px;
