@@ -103,8 +103,10 @@ span.fn {
     float: right;
 }
 #search_block_top {
-	display: inline
-}
+    background: #e6e6e6;
+    display: inline;
+    border: 1px solid #e6e6e6;
+    padding: 10px 5px;}
 .menu-footer {
     display: inline-block;
     font-family: rakkas;
@@ -126,8 +128,24 @@ span.fn {
 }.image-post-title a:hover {
 	color: #2a4057;
 	text-decoration: none
+}.search-box {
+    margin: 35px 0;
 }
-.search_query { outline: 0; width: 40%; padding: 10px 10px 10px 0px; background: #405468; display: inline; border: 0; height: 40px; color: #8b8b8b; font-family: tajawal; }
+.search_query {     outline: 0;
+    width: 75%;
+    padding: 10px 10px 10px 0px;
+    background: 0;
+    display: inline;
+    border: 0;
+    height: 40px;
+    color: #8b8b8b;
+    font-family: tajawal; }
+
+.search-box button{      border: 0;
+    background: 0;
+    color: #16a085;
+    font-size: 16px;
+}
 .header_top_wrapper button {
 	color: #c3c3c3;
 	font-size: 20px;
