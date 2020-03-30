@@ -453,7 +453,7 @@ form#searchbox {
 
 @media only screen and (max-width: 1200px) {
 	.row {
-		max-width: 964px;
+		max-width: 1050px;
 		margin-left: auto;
 		margin-right: auto
 	}
