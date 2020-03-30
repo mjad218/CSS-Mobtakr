@@ -313,7 +313,12 @@ a.comment-reply::before {
     margin: 25px 0 5px;
     display: inline-block
 }
-
+.tag-cat a:before {
+    content: "\f02c";
+    font-family: 'font awesome 5 free';
+    font-weight: 900;
+    margin-left: 5px;
+}
 .tag-cat a {
     border-radius: 5px;
     line-height: 17px;
@@ -326,25 +331,20 @@ a.comment-reply::before {
     margin-right: 10px;
     margin-bottom: 5px
 }
-.tag-cat a:hover .tag-cat a:before {color:#fff
-
-} 
 .tag-cat a:hover {
     background: #16a085;
     text-decoration: none;
     color: #fff
+}
+.tag-cat h4 {
+    margin: 0;
+    display: inline-block
 }
 
 .sharepost a:hover {
     text-decoration: none!important;
     opacity: .7
 }
-
-.tag-cat h4 {
-    margin: 0;
-    display: inline-block
-}
-
 .share-button.sb-facebook {
     background-color: #4769a5
 }
@@ -435,13 +435,7 @@ a.comment-reply::before {
     width: 35px;
     height: 35px
 }
-.tag-cat a:before {
-    content: "\f02c";
-    font-family: 'font awesome 5 free';
-    font-weight: 900;
-    margin-left: 5px;
-    color: #16a085;
-}
+
 .comment-replies ol {
     border-right: 2px solid #ebebeb;
     padding-right: 10px
