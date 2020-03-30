@@ -50,15 +50,7 @@ object {
 	max-width: 100%;
 	height: auto
 }
-.header-top-left h1, .header-top-left  h3 {
-    margin: 0;
-    line-height: 15px;
-    padding: 0;
-    margin-bottom: 25px;
-    font-size: 13px;
-    font-family: rakkas;
-    color: #2a4057;
-}
+
  article,footer,div, aside, blockquote, body, h1, h2, h3, h4, h5, h6, header, html, ins, kbd, label, nav, p, section {
     margin: 0;
     font: inherit;    font-weight: 500;font-style:normal; 
@@ -101,7 +93,7 @@ a {
     left: 59px;
 }
 .header_main_wrapper {
-	border-bottom: 1px solid #b1b1b1;
+    border-bottom: 1px solid #e6e6e6;
 	width: 100%;
 	background: #fff;  
 }.headerrr {
@@ -471,7 +463,7 @@ form#searchbox {
 .sidebar {
     width: 95%;
     padding: 20px 5%;
-}
+	}.header-top-left {display: block ; width: 100%}
 .dropdown-content {
 		opacity: 0;
 		height: 0;
