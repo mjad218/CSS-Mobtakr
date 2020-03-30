@@ -204,13 +204,13 @@ blockquote:before {
 }
 
 .single-post-title {
-     border-right: 4px solid #16a085;
-    color: #16a085!important;
+    border-right: 4px solid #484848;
+    color: #444444!important;
     display: block;
     margin-top: 8px;
     padding: 10px 10px 20px 0;
     border-bottom: 1px solid #eee;
-    font-size: 30px;
+    font-size: 25px;
     font-family: rakkas;
     line-height: 45px;
 }
@@ -360,7 +360,7 @@ a.comment-reply::before {
     min-height: 75px
 }
 
-.sharepost i {
+.sharepost i {display:block; 
     margin-left: 5px;
     margin-right: 6px
 }
@@ -401,7 +401,8 @@ a.comment-reply::before {
 .contentproduct {
     border-bottom: 1px solid #c5c5c5
 }
-
+.post-date.published:before , .post-comments:before {    color: #525252 !important; 
+}
 .contentproduct img {
     width: 150px;
     float: left;
