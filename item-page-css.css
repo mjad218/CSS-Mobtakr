@@ -434,7 +434,13 @@ a.comment-reply::before {
     width: 35px;
     height: 35px
 }
-
+.tag-cat a:before {
+    content: "\f02c";
+    font-family: 'font awesome 5 free';
+    font-weight: 900;
+    margin-left: 5px;
+    color: #16a085;
+}
 .comment-replies ol {
     border-right: 2px solid #ebebeb;
     padding-right: 10px
