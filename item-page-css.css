@@ -676,11 +676,10 @@ span.buysouq a:before {
 }
 
 .authorboxwrap {
-    margin: 10px auto 20px;
-    padding: 10px 10px 42px;
+       margin: 25px 0px;
+    padding: 20px 10px 55px 10px;
     background: #f5f5f5;
     border: 4px double #eee;
-    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, #fff 50%, #eee 50%, #eee 75%, #fff 75%, #fff)
 }
 
 .avatar-container {
