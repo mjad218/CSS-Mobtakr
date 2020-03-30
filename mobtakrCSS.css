@@ -175,12 +175,6 @@ li.menu-item i {
     padding: 6px 14px;
     text-decoration: none;
 }
-.headerrr {
-	box-shadow: 0px 2px #c3c3c3;
-	min-height: 60px;
-	background-color: #eee;
-	margin-bottom: 25px
-}
 .contact-form-widget .contact-form-email, .contact-form-widget .contact-form-name ,.contact-form-widget .contact-form-email-message{
     min-height: 43px;
 	font-family: tajawal;
