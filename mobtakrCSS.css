@@ -468,19 +468,19 @@ form#searchbox {
     width: 110px;
     float: right;}
 .dropdown-content {
-		opacity: 0;
-		height: 0;
-		overflow: hidden;
-		width: 100%;
-		visibility: hidden;
-		opacity: 0;
-		transition: visibility .5s, opacity .5s cubic-bezier(0, 0, 0.85, 1.66);margin: 0;
-		margin-right: 0!important;
-		line-height: 0;
-		background: #d8d8d8;
-		z-index: 99;
-		width: 100%;
-		border-top: 2px solid #728394;
+		    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    visibility: hidden;
+    transition: visibility .5s,opacity .5s cubic-bezier(0,0,.85,1.66);
+    margin: 0;
+    margin-right: 0!important;
+    line-height: 0;
+    background: #f9f9f9;
+    z-index: 99;
+    width: 100%;
+    border-top: 2px solid #10967c;
 	}
 	.menu-item {
 		display: block
