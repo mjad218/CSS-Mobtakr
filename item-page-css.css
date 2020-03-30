@@ -304,7 +304,7 @@ a.comment-reply::before {
 }
 
 .tag_title {
-    background-color: #2a4057;
+    background-color: #16a085;
     border-radius: 5px;
     font-size: 12px;
     line-height: 17px;
@@ -319,16 +319,18 @@ a.comment-reply::before {
     line-height: 17px;
     padding: 4px 10px;
     color: #010101;
-    border: 1px solid #2a4057;
+    border: 1px solid #16a085;
     font-size: 12px;
     text-align: center;
     display: inline-block;
     margin-right: 10px;
     margin-bottom: 5px
 }
+.tag-cat a:hover .tag-cat a:before {color:#fff
 
+} 
 .tag-cat a:hover {
-    background: #2a4057;
+    background: #16a085;
     text-decoration: none;
     color: #fff
 }
@@ -354,7 +356,7 @@ a.comment-reply::before {
 .sharepost {
     overflow: visible;
     text-align: center;
-    margin: 40px 2%;
+    margin: 20px 2%;
     min-height: 75px
 }
 
@@ -368,7 +370,6 @@ a.comment-reply::before {
     color: #fff;
     display: inline-block;
     border-radius: 6px;
-    box-shadow: -1px 2px 3px 0 rgba(0, 0, 0, .3);
     margin-left: 1%;
     width: 14%
 }
