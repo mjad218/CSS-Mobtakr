@@ -358,15 +358,15 @@ input.follow-by-email-address, .follow-by-email-inner {
     display: block;
     min-height: 38px;
     min-width: 150px;
-    font-family: tajawal;border: 1px solid #eee; 
+    font-family: tajawal;
     font-style: italic;
     padding: 0 20px;
     width: 100%;
     font-size: 13px;
     line-height: 20px;
-    margin: 15px 1%;
+    margin: 15px 0;
     text-align: center;
-} 
+} input.follow-by-email-address{border: 1px solid #eee; }
 .FollowByEmail span,.blog-pager{
 	text-align: center;
 	font-size: 20px;
