@@ -118,8 +118,9 @@ span.fn {
     margin-left: 15px;
     color: #c5c5c5;
 }.header-top-left {
-    margin-bottom: 50px;
-    text-align: center;}
+    text-align: center;
+    width: 105px;
+    display: inline-block;}
   .image-post-title a {
 	color: #000
 }
@@ -146,17 +147,17 @@ li.menu-item i {
     margin-left: 5px;
 }
 .dropdown-content{
-	    margin-right: 80px!important;
+       margin-right: 80px!important;
     margin: 0 13px;
     padding: 0 5px;
     line-height: 0;
     list-style: none;
-    height: 0;
+    vertical-align: top;
+    display: inline-block;
     overflow: hidden;
-    box-shadow: 0px 2px #c3c3c3;
+    width: 57%;
     height: 60px;
-    background-color: #eee;
-    margin-bottom: 45px;
+    margin-bottom: 25px;
     overflow-x: auto;
     white-space: nowrap;
 }
