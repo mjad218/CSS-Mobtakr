@@ -207,7 +207,7 @@ li.menu-item i {
 .sidebar .widget
  {
 width: 100%;
-margin-bottom: 30px
+margin: 20px 0
 }
 .post-category-color-text:hover,.list-label-widget-content span:hover,.more_button_post:hover ,.contact-form-button-submit:hover ,.follow-by-email-submit:hover {
 background: 0;
@@ -480,8 +480,10 @@ form#searchbox {
 @media only screen and (max-width: 978px) {
   .up-arrow{display:none}
 .sidebar {
-    width: 95%;
+     width: 100%;
     padding: 20px 5%;
+    margin: 0;
+    overflow: unset;
 	}.header-top-left {    display: inline-block;
     width: 110px;
     float: right;}
