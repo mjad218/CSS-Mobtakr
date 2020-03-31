@@ -204,8 +204,8 @@ blockquote:before {
 }
 
 .single-post-title {
-    border-right: 4px solid #484848;
-    color: #444444!important;
+    border-right: 4px solid #009477;
+    color: #009477!important;
     display: block;
     margin-top: 8px;
     padding: 10px 10px 20px 0;
@@ -324,7 +324,7 @@ a.comment-reply::before {
     line-height: 17px;
     padding: 4px 10px;
     color: #010101;
-    border: 1px solid #16a085;
+    border: 1px solid #000;
     font-size: 12px;
     text-align: center;
     display: inline-block;
@@ -401,7 +401,7 @@ a.comment-reply::before {
 .contentproduct {
     border-bottom: 1px solid #c5c5c5
 }
-.post-date.published:before , .post-comments:before {    color: #525252 !important; 
+.post-date.published:before , .post-comments:before {      color: #8a8a8a !important;
 }
 .contentproduct img {
     width: 150px;
@@ -694,7 +694,7 @@ span.buysouq a:before {
 .avatar-container img {
     width: 110px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 100%;
     margin: 5px -17px 0 0;
     padding: 5px
 }
