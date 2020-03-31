@@ -131,7 +131,10 @@ span.fn {
 	text-decoration: none
 }.search-box {
     margin: 35px 0;
-}
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 25px 5px;
+    text-align: center;}
 .search_query {     outline: 0;
     width: 75%;
     padding: 10px 10px 10px 0px;
