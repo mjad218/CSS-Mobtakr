@@ -202,7 +202,7 @@ blockquote:before {
 .share-button.sb-pinterest {
     background-color: #ef6565
 }
-..eight-columns aside {margin : 30px 0} 
+.eight-columns aside {margin : 30px 0} 
 .eight-columns header {position: relative} 
 .single-post-title {
         display: block;
