@@ -469,10 +469,10 @@ form#searchbox {
     color: #404040;} 
 
 .socialdown {
-    color: #929292;
+       color: #929292;
     display: inline-block;
-    font-size: 41px;
-    margin: 10px 0 15px 45px;
+    font-size: 30px;
+    margin: 10px 0 15px 25px;
 }
 
 .CSS_LIGHTBOX {
@@ -551,7 +551,7 @@ form#searchbox {
 		width:90% 
 	}div#rp-container {
     margin-right: 5%;
-	}.socialdown {display:block; margin: 10px}
+	}.socialdown { margin: 10px}
 	.feature-item img{
 		width: 100% 
 	}
