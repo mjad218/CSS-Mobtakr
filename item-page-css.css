@@ -485,7 +485,11 @@ span.thread-toggle a:before {
     color: #000;
     font-weight: 700
 }
-
+.post-meta.post-main{
+    margin: 10px 8px 40px 0;
+    padding-bottom: 12px;
+    font-weight: 400;
+}
 .thread-chrome .thread-toggle {
     display: none!important
 }
