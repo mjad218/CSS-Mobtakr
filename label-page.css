@@ -1,14 +1,14 @@
 		.status-msg-body {
 		         margin-bottom: 50px;
     text-align: center;
-    background: #f3f3f3;
+    background: #fff;
     padding: 11px 0;
     border: 1px solid #e6e6e6;}
 		.status-msg-body img  {     width: 96px;
 		    margin-left: 6%;
 		    float: right;}
 		.status-msg-body a {
-			color: #2a4057
+    color: #16a085;
 		}.breadcrumbs_options {
 	color: #8c8c8c;    margin: 0;
 
