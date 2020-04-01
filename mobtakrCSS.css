@@ -173,16 +173,15 @@ li.menu-item i {
     margin-left: 5px;
 }
 .dropdown-content{
-       margin-right: 80px!important;
-    margin: 0 13px;
-    padding: 0 5px;
+    margin-right: 10% !important;
+    margin: 0;
+    padding: 0px 5px;
     line-height: 0;
     list-style: none;
     vertical-align: top;
     display: inline-block;
     overflow: hidden;
     width: 70%;
-    height: 60px;
     overflow-x: auto;
     white-space: nowrap;
 }
