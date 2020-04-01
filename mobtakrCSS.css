@@ -519,6 +519,8 @@ form#searchbox {
 		padding: 10px 0;
 
 	}
+	.dropdown:hover .Label {
+	height:auto }
 	.contentproduct img {
 		width: 40% !important;
 		margin: 15px 10px!important
