@@ -113,9 +113,20 @@ span.fn {
 }.header-top-left {
     text-align: center;
     width: 100px;
-    display: inline-block;    height: 55px;
+    display: inline-block;
+    padding-top: 10px;
+    height: 50px;
 }
-
+.header-top-left :after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background: #16a085;
+    position: absolute;
+    bottom: 0;
+}
+header { position: relative}
 
   .image-post-title a {
 	color: #000
