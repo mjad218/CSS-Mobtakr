@@ -11,7 +11,7 @@
 iframe {
     border: 0
 }
-.breadcrumbs_options span ,.breadcrumbs_options li em {    color: #7e7e7e;
+.breadcrumbs_options span ,.breadcrumbs_options li em {    color: #7e7e7e;font-weight: 500 
 }
 .breadcrumbs_options li {
     font-weight: 700;
@@ -202,19 +202,24 @@ blockquote:before {
 .share-button.sb-pinterest {
     background-color: #ef6565
 }
-
+.post-body header aside {margin : 30px 0 40 0} 
+.post-body header {position: relative} 
 .single-post-title {
-    border-right: 4px solid #009477;
-    color: #009477!important;
-    display: block;
+        display: block;
     margin-top: 8px;
-    padding: 10px 10px 20px 0;
-    border-bottom: 1px solid #eee;
+    padding: 20px 0px 20px 0;
     font-size: 25px;
     font-family: rakkas;
-    line-height: 45px;
 }
-
+.single-post-title :after {
+    content: "";
+    display: block;
+    width: 47px;
+    height: 2px;
+    background: #16a085;
+    position: absolute;
+    top: 0;
+}
 .post-body,
 .post-body div,
 .post-body p,
