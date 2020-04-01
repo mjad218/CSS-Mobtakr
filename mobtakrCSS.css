@@ -192,13 +192,12 @@ li.menu-item i {
     margin-bottom: 25px;
 }
 .menu-item a {
-	    font-family: rakkas;
-    color: #2d3e51;
+    font-family: rakkas;
+    color: #000000;
     display: block;
     font-size: 13px;
     line-height: 48px;
-    padding: 6px 14px;
-    text-decoration: none;
+    padding: 10px 14px;
 }
 .contact-form-widget .contact-form-email, .contact-form-widget .contact-form-name ,.contact-form-widget .contact-form-email-message{
     min-height: 43px;
