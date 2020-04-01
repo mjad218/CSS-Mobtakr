@@ -408,6 +408,9 @@ a.comment-reply::before {
 }
 .post-date.published:before , .post-comments:before {      color: #8a8a8a !important;
 }
+.post-meta a, .post-meta time { float:left } 
+
+
 .contentproduct img {
     width: 150px;
     float: left;
