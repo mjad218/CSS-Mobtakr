@@ -207,8 +207,8 @@ blockquote:before {
 .single-post-title {
         display: block;
     margin-top: 8px;
-    padding: 20px 0px 20px 0;
-    font-size: 25px;
+    padding: 18px 0px 20px 0;
+    font-size: 28px;
     font-family: rakkas;
 }
 .single-post-title :after {
