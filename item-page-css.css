@@ -203,7 +203,7 @@ blockquote:before {
     background-color: #ef6565
 }
 .post-body header aside {margin : 30px 0 40 0} 
-.post-body header {position: relative} 
+.eight-columns header {position: relative} 
 .single-post-title {
         display: block;
     margin-top: 8px;
