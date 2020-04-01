@@ -483,52 +483,39 @@ form#searchbox {
 	z-index: 9999 !important;
 }
 
-@media only screen and (max-width: 1200px) {
-	.row {
-		max-width: 1050px;
-		margin-left: auto;
-		margin-right: auto
-	}
-
-}
 @media only screen and (max-width: 978px) {
   .up-arrow{display:none}
 .sidebar {
-		border-right: none;
-     width: 100%;
-    padding: 20px 5%;
-    margin: 0;
-    overflow: unset;
-	}.header-top-left {
+border-right: none;
+width: 100%;
+padding: 20px 5%;
+margin: 0;
+overflow: unset;
+	}
+	.header-top-left {
     float: right;}
 .dropdown-content {
-		    opacity: 0;
+		opacity: 0;
     height: 0;
     overflow: hidden;
-    width: 100%;
     visibility: hidden;
     transition: visibility .5s,opacity .5s cubic-bezier(0,0,.85,1.66);
-    margin: 0;
-    margin-right: 0!important;
-    line-height: 0;
+    margin-right: 0 !important;
     background: #f9f9f9;
     z-index: 99;
     width: 100%;
-    border-top: 2px solid #10967c;
+    margin-top: 25px;
 	}
 	.menu-item {
 		display: block
 	}
 	.dropbtn {
 		display: block !important;
-
 	}
 	.dropdown:hover .dropdown-content {
 		visibility: visible;
 		opacity: 1;
 		height: auto !important;
-		padding: 10px 0;
-
 	}
 
 	.contentproduct img {
