@@ -271,12 +271,6 @@ text-align: right;
     color: #16a085;
     font-style: normal;
 }
-.post-meta.post-main{
-    margin: 10px 8px 40px 0;
-    padding-bottom: 12px;
-    font-weight: 400;
-    border-bottom: 1px solid #eee;
-}
 .post-meta a, .post-meta time {
 	    font-size: 11px;
     color: #404040;
