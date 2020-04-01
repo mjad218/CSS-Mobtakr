@@ -462,13 +462,19 @@ ul {
 
 form#searchbox {
 	display: inline
-}
-.socialdown {    color: #2a4057;
+} .socialHome{text-align:center}
+   .socialHome h2{ font-size: 21px;
+    margin: 50px 0px 0 0;
+    font-weight: bold;
+    color: #404040;} 
+
+.socialdown {
+    color: #929292;
     display: inline-block;
-    line-height: 43px;
-    float: left;
-    margin: 10px 0 2px 11px;
+    font-size: 41px;
+    margin: 10px 0 15px 45px;
 }
+
 .CSS_LIGHTBOX {
 	z-index: 9999 !important;
 }
@@ -545,7 +551,7 @@ form#searchbox {
 		width:90% 
 	}div#rp-container {
     margin-right: 5%;
-}
+	}.socialdown {display:block; margin: 10px}
 	.feature-item img{
 		width: 100% 
 	}
