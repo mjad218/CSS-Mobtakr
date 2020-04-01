@@ -112,8 +112,11 @@ span.fn {
     color: #c5c5c5;
 }.header-top-left {
     text-align: center;
-    width: 105px;
-    display: inline-block;}
+    width: 100px;
+    display: inline-block;    height: 55px;
+}
+
+
   .image-post-title a {
 	color: #000
 }
@@ -469,9 +472,7 @@ form#searchbox {
 .CSS_LIGHTBOX {
 	z-index: 9999 !important;
 }
-.Label {
-    height: 75px;
-}
+
 @media only screen and (max-width: 1200px) {
 	.row {
 		max-width: 1050px;
@@ -519,8 +520,7 @@ form#searchbox {
 		padding: 10px 0;
 
 	}
-	.dropdown:hover .Label {
-	height:auto }
+
 	.contentproduct img {
 		width: 40% !important;
 		margin: 15px 10px!important
