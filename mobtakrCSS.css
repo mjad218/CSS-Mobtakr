@@ -465,14 +465,11 @@ ul {
 form#searchbox {
 	display: inline
 } .socialHome{text-align:center}
-   .socialHome h2{    font-size: 21px;
-    margin: 50px 0px 5px 0;
-    color: #404040;} 
-
+  
 .socialdown {
-       color: #929292;
-    font-size: 50px;
-    margin: 30px
+      color: #929292;
+    font-size: 25px;
+    margin: 10px;
 }
 .in:hover {color: #3b85ac}
 .face:hover {color: #5270a4}
