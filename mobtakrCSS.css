@@ -95,7 +95,7 @@ a {
     border-bottom: 1px solid #e6e6e6;
     width: 100%;
     background: #fff;
-    padding: 20px 0;
+    padding: 15px 0 0 0;
 }
 span.fn {
     float: right;
@@ -469,7 +469,9 @@ form#searchbox {
 .CSS_LIGHTBOX {
 	z-index: 9999 !important;
 }
-
+.Label {
+    height: 75px;
+}
 @media only screen and (max-width: 1200px) {
 	.row {
 		max-width: 1050px;
@@ -486,8 +488,7 @@ form#searchbox {
     padding: 20px 5%;
     margin: 0;
     overflow: unset;
-	}.header-top-left {    display: inline-block;
-    width: 110px;
+	}.header-top-left {
     float: right;}
 .dropdown-content {
 		    opacity: 0;
