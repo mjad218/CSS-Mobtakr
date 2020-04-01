@@ -411,7 +411,7 @@ footer {
     background: #f3f3f3;
     padding-top: 25px;
     clear: both;    border-top: 2px solid #eee;
-    padding-bottom: 25px;    margin-top: 50px;
+    padding-bottom: 25px;    margin-top: 25px;
 }
 
 ol,
@@ -463,17 +463,21 @@ ul {
 form#searchbox {
 	display: inline
 } .socialHome{text-align:center}
-   .socialHome h2{ font-size: 21px;
-    margin: 50px 0px 0 0;
-    font-weight: bold;
+   .socialHome h2{    font-size: 21px;
+    margin: 50px 0px 5px 0;
     color: #404040;} 
 
 .socialdown {
        color: #929292;
-    display: inline-block;
-    font-size: 30px;
-    margin: 10px 0 15px 25px;
+    font-size: 20px;
+    margin: 10px
 }
+.in:hover {color: #3b85ac}
+.face:hover {color: #5270a4}
+.yout:hover {color: #bb413e}
+.pint:hover {color: #bb413e}
+.twtr:hover {color: #4db7eb}
+.insta:hover {color: #bc2a8d}
 
 .CSS_LIGHTBOX {
 	z-index: 9999 !important;
@@ -551,7 +555,7 @@ form#searchbox {
 		width:90% 
 	}div#rp-container {
     margin-right: 5%;
-	}.socialdown { margin: 10px}
+	}
 	.feature-item img{
 		width: 100% 
 	}
