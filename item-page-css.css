@@ -704,11 +704,12 @@ span.buysouq a:before {
 }
 
 .avatar-container img {
-    width: 110px;
+     width: 110px;
     height: auto;
     border-radius: 100%;
     margin: 5px -17px 0 0;
-    padding: 5px
+    padding: 2px;
+    border: 2px double #c7969f;
 }
 
 .authorboxwrap h4 {
