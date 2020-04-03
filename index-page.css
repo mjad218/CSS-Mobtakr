@@ -86,8 +86,28 @@ transition: .2s;
     width: 98%;
     margin: 5px 10px;
 }
-@media screen and (max-width: 600px) { 
-	.featured-iimage {display:block ; text-align:center }
+ .featured-snippet  { padding: 10px 14px;
+    display: inline-block;
+    vertical-align: top;
+width: 77%; }
+.featured-iimage {    display: inline-block;
+    vertical-align: top;
+    width: 20%;}
+.featured-iimage img{
+    border-radius: 100%;
+    border: 2px solid #cf9ea1;
+    outline: 0;
+padding: 2px;} 
+.featured-box{    padding: 20px 20px 5px 20px;
+    background: #f3f3f3;
+    margin: 40px auto;
+	border-top: 1px solid #eee;}
 
+@media screen and (max-width: 600px) { 
+	.featured-iimage {display:block ; text-align:center ; width: 60%; }
+.featured-snippet  { padding: 10px 14px;
+    display: block;
+    vertical-align: top;
+width: 100%; }
 
 }
