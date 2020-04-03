@@ -17,12 +17,22 @@
 	font-weight: bold;
 	color: #7e7e7e;
 }
-		  .single-post-title {
-		       margin: 10px 0 46px 0;
-    padding: 10px 0px 20px 0;
-    border-bottom: 1px solid #eee;
-    font-size: 22px;
-    text-align: center;}
+.single-post-title {
+        display: block;
+    margin-top: 8px;
+    padding: 18px 0px 20px 0;
+    font-size: 28px;
+    font-family: rakkas;
+}
+.single-post-title :after {
+    content: "";
+    display: block;
+    width: 47px;
+    height: 2px;
+    background: #16a085;
+    position: absolute;
+    top: 0;
+}
 		.post-body,
 		.post-body div,
 		.post-body p,
