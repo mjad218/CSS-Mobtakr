@@ -86,3 +86,8 @@ transition: .2s;
     width: 98%;
     margin: 5px 10px;
 }
+@media screen and (max-width: 600px) { 
+	.featured-iimage {display:block ; text-align:center }
+
+
+}
