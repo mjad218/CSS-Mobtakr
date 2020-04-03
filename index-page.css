@@ -90,13 +90,13 @@ transition: .2s;
     display: inline-block;
     vertical-align: top;
 width: 77%; }
-.featured-iimage {    display: inline-block;
+.featured-iimage {  text-align:center ;  display: inline-block;
     vertical-align: top;
     width: 20%;}
 .featured-iimage img{
     border-radius: 100%;
     border: 2px solid #cf9ea1;
-    outline: 0;
+    outline: 0; max-width: 70% ;
 padding: 2px;} 
 .featured-box{
     padding: 20px 5%;
