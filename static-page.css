@@ -74,7 +74,59 @@
     margin: 30px 0;
     padding: 25px 10px;
     border: 1px solid #e6e6e6;
+}.email-sub .follow-by-email-address {
+    width: 60%;
+    display: inline-block
 }
+
+.email-sub .follow-by-email-submit {
+    width: 37%;
+    display: inline-block
+}
+.linkedin {
+    background: #2467a7
+}
+.share-button.sb-pinterest {
+    background-color: #ef6565
+}
+.sharepost a:hover {
+    text-decoration: none!important;
+    opacity: .7
+}
+.share-button.sb-facebook {
+    background-color: #4769a5
+}
+
+.share-button.sb-twitter {
+    background-color: #65ccef
+}
+.sharepost {
+    overflow: visible;
+    text-align: center;
+    margin: 20px 2%;
+    min-height: 75px
+}
+
+.sharepost i {display:block; 
+    margin-left: 5px;
+    margin-right: 6px
+}
+
+.sharepost a {
+    padding: 10px 0;
+    color: #fff;
+    display: inline-block;
+    border-radius: 6px;
+    margin-left: 1%;
+    width: 14%
+}
+.share-button.sb-blog {
+    background-color: #efa265
+}
+.share-button.sb-email {
+    background-color: #6586ef
+}
+
 .eight-columns {
     width: 68%;
     display: block !important;
