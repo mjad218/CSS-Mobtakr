@@ -126,7 +126,16 @@
 .share-button.sb-email {
     background-color: #6586ef
 }
-
+.tag_title {
+    background-color: #16a085;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 17px;
+    padding: 4px 10px;
+    color: #fff;
+    margin: 25px 0 5px;
+    display: inline-block
+}
 .eight-columns {
     width: 68%;
     display: block !important;
