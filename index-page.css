@@ -104,7 +104,9 @@ padding: 2px;}
     margin: 40px auto;
     border-top: 1px solid #eee;
 }
-
+.featured-box .socialdown {
+    font-size: 17px;
+}
 @media screen and (max-width: 600px) { 
 	.featured-iimage {display:block ; text-align:center ; width: 60%; }
 .featured-snippet  { padding: 10px 14px;
