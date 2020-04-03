@@ -432,11 +432,6 @@ a.comment-reply::before {
     display: block;
     font-style: italic
 }
-
-.comment-replies .comment-block {
-    background: #f7f7f7!important
-}
-
 .avatar-image-container img {
     border-radius: 29px;
     float: right;
