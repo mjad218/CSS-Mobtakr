@@ -493,7 +493,14 @@ form#searchbox {
 .CSS_LIGHTBOX {
 	z-index: 9999 !important;
 }
-
+.reaction-buttons span {
+    display: inline-block;
+    vertical-align: top;
+}.reactions-label {
+    margin: 0px 0 10px 0;
+}
+.reaction-buttons {    margin: 25px 0;
+    height: 60px;}
 @media only screen and (max-width: 978px) {
   .up-arrow{display:none}
 .sidebar {
