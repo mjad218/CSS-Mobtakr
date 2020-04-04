@@ -372,6 +372,8 @@ time.post-date.published {
 }.readalso a {
     padding: 0;
     color: #000;
+}.socialdown:hover i {
+    transform: scale(1.15);
 }
 input.follow-by-email-address, .follow-by-email-inner {
     display: block;
