@@ -108,10 +108,11 @@ padding: 2px;}
     font-size: 17px;
 }
 @media screen and (max-width: 600px) { 
-	.featured-iimage {display:block ; text-align:center ; width: 60%; }
+	.featured-iimage {display:block ; text-align:center ; width:100%; }
 .featured-snippet  { padding: 10px 14px;
     display: block;
     vertical-align: top;
-width: 100%; }
-
+width: 100%; }.featured-iimage img {
+    max-width: 50%;
+}
 }
