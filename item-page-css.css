@@ -371,12 +371,14 @@ a.comment-reply::before {
 }
 
 .sharepost a {
-    padding: 10px 0;
+      padding: 7px 0;
     color: #fff;
     display: inline-block;
     border-radius: 6px;
     margin-left: 1%;
-    width: 14%
+    width: 10%;
+    margin-bottom: 5px;
+    min-width: 50px;
 }
 
 .share-button.sb-blog {
