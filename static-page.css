@@ -156,3 +156,33 @@
 			border-radius: 5px;
 			height: 1px
 		}
+ .featured-snippet  { padding: 10px 14px;
+    display: inline-block;
+    vertical-align: top;
+width: 77%; }
+.featured-iimage {  text-align:center ;  display: inline-block;
+    vertical-align: top;
+    width: 20%;}
+.featured-iimage img{
+    border-radius: 100%;
+    border: 2px solid #cf9ea1;
+    outline: 0; max-width: 70% ;
+padding: 2px;} 
+.featured-box{
+    padding: 20px 5%;
+    background: #f3f3f3;
+    margin: 40px auto;
+    border-top: 1px solid #eee;
+}
+.featured-box .socialdown {
+    font-size: 17px;
+}
+@media screen and (max-width: 600px) { 
+	.featured-iimage {display:block ; text-align:center ; width:100%; }
+.featured-snippet  { padding: 10px 14px;
+    display: block;
+    vertical-align: top;
+width: 100%; }.featured-iimage img {
+    max-width: 50%;
+}
+}
