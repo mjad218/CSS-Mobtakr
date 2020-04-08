@@ -1,4 +1,6 @@
-
+.post-body>div {
+    margin-top: 0;
+}
 		.containerskills {
 			background-color: #cecece
 		}
