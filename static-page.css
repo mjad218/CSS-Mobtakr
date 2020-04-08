@@ -19,7 +19,7 @@
 }.row-article {
     width: 100%;
     margin: 0 auto !important;
-	padding: 20px
+	padding: 20px 0 ;
 }
 .single-post-title {
         display: block;
@@ -184,14 +184,21 @@ padding: 2px;}
 @media screen and (min-width: 978px) { 
 
 	.row-article {
-   min-width:800px ;   width: 60%;
-
+    max-width: 730px;
     margin: 0 auto !important;
 		padding:10px
 	
 }
 }
+@media (min-width: 768px)
+.row-article.row-article {
+    max-width: 720px;
+}
 
+@media (min-width: 576px)
+.row-article {
+    max-width: 540px;
+}
 
 @media screen and (max-width: 600px) { 
 	.featured-iimage {display:block ; text-align:center ; width:100%; }
