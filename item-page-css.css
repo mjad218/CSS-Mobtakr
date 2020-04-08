@@ -199,18 +199,9 @@ blockquote:before {
     display: none
 }
 
-.share-button.sb-pinterest {
-    background-color: #ef6565
-}
+
 .eight-columns aside {margin : 30px 0} 
 .eight-columns header {position: relative} 
-.single-post-title {
-        display: block;
-    margin-top: 8px;
-    padding: 18px 0px 20px 0;
-    font-size: 28px;
-    font-family: rakkas;
-}
 .single-post-title :after {
     content: "";
     display: block;
@@ -220,6 +211,14 @@ blockquote:before {
     position: absolute;
     top: 0;
 }
+.single-post-title {
+        display: block;
+    margin-top: 8px;
+    padding: 18px 0px 20px 0;
+    font-size: 28px;
+    font-family: rakkas;
+}
+
 .post-body,
 .post-body div,
 .post-body p,
@@ -243,12 +242,6 @@ blockquote:before {
     right: 0
 }
 
-a.comment-reply::before {
-    font-family: 'font awesome 5 free';
-    font-weight: 900;
-    content: '\f3e5';
-    margin-left: 3px
-}
 
 .code {
     background-color: #e3f0f3;
@@ -353,7 +346,9 @@ a.comment-reply::before {
 .share-button.sb-facebook {
     background-color: #4769a5
 }
-
+.share-button.sb-pinterest {
+    background-color: #ef6565
+}
 .share-button.sb-twitter {
     background-color: #65ccef
 }
@@ -398,12 +393,7 @@ a.comment-reply::before {
     outline-offset: -1px
 }
 
-.comment-header a {
-    color: #000;
-    font-weight: 700;
-    font-size: 15px;
-    font-style: normal
-}
+
 
 .contentproduct {
     border-bottom: 1px solid #c5c5c5
@@ -428,11 +418,22 @@ a.comment-reply::before {
     padding-left: 5px
 }
 
+a.comment-reply::before {
+    font-family: 'font awesome 5 free';
+    font-weight: 900;
+    content: '\f3e5';
+    margin-left: 3px
+}
 .datetime.secondary-text a {
     font-size: 12px!important;
     font-weight: 400;
     display: block;
     font-style: italic
+}.comment-header a {
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal
 }
 .avatar-image-container img {
     border-radius: 29px;
