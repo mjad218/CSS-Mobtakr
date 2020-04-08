@@ -13,6 +13,9 @@
 	    margin: 0 2px;
   display: inline;
 }
+#content .widget, .sidebar .widget {
+    width: 100%;
+	margin: 0 !important; } 
 .breadcrumbs_options a {
 	font-weight: bold;
 	color: #7e7e7e;
