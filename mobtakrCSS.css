@@ -218,7 +218,7 @@ li.menu-item i {
 
 }
 .contact-form-button-submit, .follow-by-email-submit {
-	    font-family: rakkas;
+	    font-family: rakkas;    cursor: pointer;
     height: 40px;
     width: 100%;
     background: #55a797;
