@@ -234,6 +234,9 @@ a.comment-reply::before {
 .share-button.sb-twitter {
     background-color: #65ccef
 }
+.linkedin {
+    background: #2467a7
+}
 
 .sharepost {
     overflow: visible;
