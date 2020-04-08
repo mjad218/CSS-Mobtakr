@@ -229,11 +229,6 @@ blockquote:before {
     font-size: 1rem!important;
     margin: 10px 0 20px
 }
-
-.linkedin {
-    background: #2467a7
-}
-
 .postimage0 img {
     position: absolute;
     top: 0;
@@ -352,7 +347,9 @@ blockquote:before {
 .share-button.sb-twitter {
     background-color: #65ccef
 }
-
+.linkedin {
+    background: #2467a7
+}
 .sharepost {
     overflow: visible;
     text-align: center;
