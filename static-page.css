@@ -16,6 +16,9 @@
 .breadcrumbs_options a {
 	font-weight: bold;
 	color: #7e7e7e;
+}.row-article {
+    max-width: 55%;
+    margin: 0 auto !important;
 }
 .single-post-title {
         display: block;
@@ -184,5 +187,12 @@ padding: 2px;}
     vertical-align: top;
 width: 100%; }.featured-iimage img {
     max-width: 50%;
+}
+	.row-article {
+    max-width: 100%;   width: 100%;
+
+    margin: 0 auto !important;
+		padding:10px
+	
 }
 }
