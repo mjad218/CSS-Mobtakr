@@ -184,6 +184,9 @@ li.menu-item i {
     overflow-x: auto;
     white-space: nowrap;
 }
+.menu-item h3 {
+    margin: 0;
+}
 .menu-item {
 	display: inline-block
 }div#FeaturedPost1 p {
@@ -523,7 +526,7 @@ overflow: unset;
     background: #f9f9f9;
     z-index: 99;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 45px;
 	}
 	.menu-item {
 		display: block
