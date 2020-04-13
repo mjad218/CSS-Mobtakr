@@ -184,7 +184,7 @@ li.menu-item i {
     overflow-x: auto;
     white-space: nowrap;
 }
-.menu-item h3 {
+.menu-item h3 ,.menu-item h1{
     margin: 0;
 }
 .menu-item {
