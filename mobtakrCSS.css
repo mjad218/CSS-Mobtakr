@@ -27,13 +27,13 @@ hr {
 #mainmenu::-webkit-scrollbar-thumb{
     background-color: #82888e78;
 }
-header,html,body {	width: 100%;
-margin: 0;
+header,html,body {width: 100%;
+margin: 0 auto;
 }
 body {
 	font: 14px/1.615em Tajawal!important;
 	background: #fafafa;
-	color: #222;    overflow-x: hidden;
+	color: #222;  
 
 }
 		.post-comments:before {
@@ -51,7 +51,6 @@ object {
 }
 
  article,footer,div, aside, blockquote, body, h1, h2, h3, h4, h5, h6, header, html, ins, kbd, label, nav, p, section {
-    margin: 0;
     font: inherit;    font-weight: 500;font-style:normal; 
 
 }
@@ -539,13 +538,11 @@ overflow: unset;
 	}
 
 	.contentproduct img {
-		width: 40% !important;
+		width:50% !important;
 		margin: 15px 10px!important
 	}
 	.row {
 		max-width: 768px;
-		margin-left: auto;
-		margin-right: auto
 	}
 .eight-columns {
 		padding-left: 0;
@@ -556,11 +553,11 @@ overflow: unset;
 @media only screen and (max-width: 768px) {
 	.row {
 		width: 100%;
-		margin-left: auto;
-		margin-right: auto
-	}.related-posts a{
+	}
+	.related-posts a{
 		width:90% 
-	}div#rp-container {
+	}
+	div#rp-container {
     margin-right: 5%;
 	}
 	.feature-item img{
