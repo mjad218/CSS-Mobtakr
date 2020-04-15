@@ -345,11 +345,11 @@ input.follow-by-email-address, .follow-by-email-inner {
 
 .image {
 border-radius: 20px;
-width: 90%;
 border: 1px solid #eeee;
 }
 .image:hover{filter: saturate(0.5);
 }
+
 .clear {
 	margin: 2px;
 	padding: 10px
