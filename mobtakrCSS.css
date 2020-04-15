@@ -426,7 +426,7 @@ overflow: unset;
     float: right;}
 	
 .dropdown-content {
-		opacity: 0;margin-top: 40px;
+		opacity: 0;padding-top: 50px;
     height: 0;
     overflow: hidden;
     visibility: hidden;
@@ -435,7 +435,6 @@ overflow: unset;
     background: #f9f9f9;
     z-index: 99;
     width: 100%;
-    margin-top: 25px;
 	}
 	
 	.menu-item {
