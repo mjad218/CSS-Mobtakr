@@ -461,9 +461,6 @@ overflow: unset;
 		width:50% !important;
 		margin: 15px 10px!important
 	}
-	.row {
-		max-width: 768px;
-	}
 .eight-columns {
 		padding-left: 0;
 		border-left: none;
@@ -472,6 +469,7 @@ overflow: unset;
 .row {
 		width: 100%;
 	    padding: 0 20px;
+	margin: 0 auto; max-width: 768px;
 
 	}
 	
@@ -492,7 +490,7 @@ overflow: unset;
 }
 	.row {
 	width: 100%;
-	max-width: 1130px;
+	max-width: 1100px;
 	margin: 0 auto;
 }
 .eight-columns {
