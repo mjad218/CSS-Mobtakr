@@ -471,8 +471,11 @@ span.thread-toggle a:before {
     margin-bottom: 15px;
     font-weight: 400;
     overflow-wrap: break-word;
-    font-size: 13px;
-    word-wrap: break-word
+    font-size: 15px;
+    word-wrap: break-word;
+    max-height: 200px;
+    overflow: auto;
+    padding: 10px 2px;
 }
 
 .comment-actions a,
