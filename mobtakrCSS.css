@@ -464,10 +464,6 @@ overflow: unset;
 	}
 	
 
-	.post_loop_content {
-		width: 100%;
-		margin-right: 0
-	}
 @media only screen and (min-width: 978px) {
 	.up-arrow {
     position: fixed;
