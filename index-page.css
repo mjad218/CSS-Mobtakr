@@ -103,6 +103,7 @@ padding: 2px;}
 .post_loop_content {
     width: 100%;
     margin-right: 0;
+	padding-bottom: 40px
 }
 @media only screen and (min-width: 978px) {
 .feature-item img {
@@ -112,7 +113,7 @@ padding: 2px;}
     position: relative;
     margin-right: 20px;
     display: inline-block;
-    width: 50%;
+    width: 50%;padding-bottom: 5px
 }	
 } 
 @media screen and (max-width: 600px) { 
