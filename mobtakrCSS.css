@@ -205,9 +205,6 @@ font-weight: bold;
 text-align: right;
 }
 
-.sidebar .widget-content {
-	width: 100%
-}
 .g-profile .author_avatar {
     width: 15px;
     border-radius: 100%;
@@ -346,9 +343,7 @@ input.follow-by-email-address, .follow-by-email-inner {
     padding-top: 5px;
     float: left;
 }
-.menu-item&gt;h3:hover {
-	background-color: #e3e6e7
-}
+
 .image {
 border-radius: 20px;
 width: 90%;
@@ -416,59 +411,10 @@ form#searchbox {
 }
 .reaction-buttons {    margin: 25px 0;
     height: 60px;}
-
-@media only screen and (min-width: 978px) {
-	.up-arrow {
-    position: fixed;
-    bottom: 50px;
-    z-index: 999;
-    left: 59px;    position: fixed;
-    bottom: 50px;
-    z-index: 999;
-    background: #16a085;
-    padding: 10px;
-    color: #fff;
-    border-radius: 3px;
-    left: 59px;
+.menu-item h3:hover {
+	background-color: #e3e6e7
 }
-	.row {
-	width: 100%;
-	max-width: 1130px;
-	margin: 0 auto;
-	padding: 0 20px
-}
-.eight-columns {
-    padding-left: 15px;
-    width: 68%;
-    display: inline-block;
-}
-.sidebar {       padding-right: 2.12766%;    border-right: 1px solid #e6e6e6;
-    overflow: hidden;
-    width: 28%;
-    vertical-align: top;
-    display: inline-block;
-
-}
-	.dropdown-content{
-    margin-right: 10% !important;
-    margin: 0;
-    padding: 0px 5px;
-    line-height: 0;
-    list-style: none;
-    vertical-align: top;
-    display: inline-block;
-    overflow: hidden;
-    width: 70%;
-    overflow-x: auto;
-    white-space: nowrap;
-}.menu-item {
-	display: inline-block
-}
-}
-@media only screen and (max-width: 768px) {
-	
-}
-  .up-arrow{display:none}
+ .up-arrow{display:none}
 	
 .sidebar {
 border-right: none;
@@ -525,7 +471,60 @@ overflow: unset;
 	.feature-item img{
 		width: 100% 
 	}
+
 	.post_loop_content {
 		width: 100%;
 		margin-right: 0
 	}
+@media only screen and (min-width: 978px) {
+	.up-arrow {
+    position: fixed;
+    bottom: 50px;
+    z-index: 999;
+    left: 59px;    position: fixed;
+    bottom: 50px;
+    z-index: 999;
+    background: #16a085;
+    padding: 10px;
+    color: #fff;
+    border-radius: 3px;
+    left: 59px;
+}
+	.row {
+	width: 100%;
+	max-width: 1130px;
+	margin: 0 auto;
+	padding: 0 20px
+}
+.eight-columns {
+    padding-left: 15px;
+    width: 68%;
+    display: inline-block;
+}
+.sidebar {       padding-right: 2.12766%;    border-right: 1px solid #e6e6e6;
+    overflow: hidden;
+    width: 28%;
+    vertical-align: top;
+    display: inline-block;
+
+}
+	.dropdown-content{
+    margin-right: 10% !important;
+    margin: 0;
+    padding: 0px 5px;
+    line-height: 0;
+    list-style: none;
+    vertical-align: top;
+    display: inline-block;
+    overflow: hidden;
+    width: 70%;
+    overflow-x: auto;
+    white-space: nowrap;
+}.menu-item {
+	display: inline-block
+}
+}
+@media only screen and (max-width: 768px) {
+	
+}
+ 
