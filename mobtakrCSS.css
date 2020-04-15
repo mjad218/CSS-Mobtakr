@@ -196,13 +196,24 @@ margin: 20px 0
 background: 0;
 border: 1px solid #16a085;
 color: #16a085;}
+.title:before, .about-website h4:before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #16a085;
+    position: absolute;
+    bottom: 0;
+}
 .title,.about-website h4{
-margin: 40px 5px 20px 5px;
-padding: 3px 5px;
-color: #000000;
-border-right: 3px solid #0a846c;
-font-weight: bold;
-text-align: right;
+	
+    margin: 40px 0px 20px 5px;
+    padding: 4px 0;
+    color: #000000;
+    font-size: 17px;
+    text-align: right;
+    position: relative;
+	
 }
 
 .g-profile .author_avatar {
