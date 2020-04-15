@@ -334,7 +334,6 @@ input.follow-by-email-address, .follow-by-email-inner {
 	font-family: rakkas
 }
 .dropbtn { 
-    display: none;
     line-height: 43px;
     background-color: unset;
     color: #2a4057;
@@ -442,15 +441,10 @@ overflow: unset;
 	.menu-item {
 		display: block
 	}
-	
-	.dropbtn {
-		display: block !important;
-	}
-	
 	.dropdown:hover .dropdown-content {
 		visibility: visible;
 		opacity: 1;
-		height: auto !important;    margin-top: 40px;
+		height: auto ;    margin-top: 40px;
 	}
 
 	.contentproduct img {
@@ -523,7 +517,12 @@ overflow: unset;
 }.menu-item {
 	display: inline-block
 }
+	.header-top-left {float : none}
+	.dropbtn {
+    display: none ;
 }
+}
+
 @media only screen and (max-width: 768px) {
 	
 }
