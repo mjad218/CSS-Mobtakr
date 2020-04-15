@@ -518,5 +518,8 @@ overflow: unset;
 	.dropbtn {
     display: none ;
 }
+	.dropdown:hover .dropdown-content {
+    padding-top: 0;
+}
 }
  
