@@ -461,6 +461,8 @@ overflow: unset;
 	}
 .row {
 		width: 100%;
+	    padding: 0 20px;
+
 	}
 	
 
@@ -482,7 +484,6 @@ overflow: unset;
 	width: 100%;
 	max-width: 1130px;
 	margin: 0 auto;
-	padding: 0 20px
 }
 .eight-columns {
     padding-left: 15px;
@@ -519,9 +520,5 @@ overflow: unset;
 	.dropbtn {
     display: none ;
 }
-}
-
-@media only screen and (max-width: 768px) {
-	
 }
  
