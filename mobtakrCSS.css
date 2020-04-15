@@ -426,13 +426,12 @@ overflow: unset;
     float: right;}
 	
 .dropdown-content {
-		opacity: 0;padding-top: 50px;
+		opacity: 0;
     height: 0;
     overflow: hidden;
     visibility: hidden;
     transition: visibility .5s,opacity .5s cubic-bezier(0,0,.85,1.66);
     margin-right: 0 !important;
-    background: #f9f9f9;
     z-index: 99;
     width: 100%;
 	}
@@ -443,7 +442,8 @@ overflow: unset;
 	.dropdown:hover .dropdown-content {
 		visibility: visible;
 		opacity: 1;
-		height: auto ;    
+		height: auto ;     padding-top: 50px;
+  
 	}
 
 	.contentproduct img {
