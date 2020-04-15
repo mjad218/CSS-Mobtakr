@@ -426,7 +426,7 @@ overflow: unset;
     float: right;}
 	
 .dropdown-content {
-		opacity: 0;
+		opacity: 0;margin-top: 40px;
     height: 0;
     overflow: hidden;
     visibility: hidden;
@@ -444,7 +444,7 @@ overflow: unset;
 	.dropdown:hover .dropdown-content {
 		visibility: visible;
 		opacity: 1;
-		height: auto ;    margin-top: 40px;
+		height: auto ;    
 	}
 
 	.contentproduct img {
@@ -503,7 +503,7 @@ overflow: unset;
 
 }
 	.dropdown-content{
-    margin-right: 10% !important;
+       margin-right: 10% !important;
     margin: 0;
     padding: 0px 5px;
     line-height: 0;
@@ -512,6 +512,10 @@ overflow: unset;
     display: inline-block;
     overflow: hidden;
     width: 70%;
+    visibility: visible;
+    opacity: 1;
+    height: auto;
+    background: 0;
     overflow-x: auto;
     white-space: nowrap;
 }.menu-item {
