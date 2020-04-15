@@ -153,13 +153,15 @@ blockquote:before {
 }
 
 .email-sub .follow-by-email-address {
-    width: 60%;
-    display: inline-block
+    margin-left: 4%;
+    width: 54%;
+    margin-right: 1%;
+    display: inline-block;
 }
 
 .email-sub .follow-by-email-submit {
     width: 37%;
-    display: inline-block
+    display: inline-block;
 }
 
 .post-body h2 {
