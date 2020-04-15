@@ -427,7 +427,7 @@ overflow: unset;
 	
 .dropdown-content {
 		opacity: 0;
-    height: 0;
+    height: 20px;
     overflow: hidden;
     visibility: hidden;
     transition: visibility .5s,opacity .5s cubic-bezier(0,0,.85,1.66);
