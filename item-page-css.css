@@ -354,11 +354,11 @@ blockquote:before {
 }
 .sharepost {
  overflow: visible;
-    text-align: left;
+    text-align: center;
     margin: 10px 2%;
 }
 
-.sharepost i {display:block; 
+.sharepost i {
     margin-left: 5px;
     margin-right: 6px
 }
