@@ -239,28 +239,26 @@ a.comment-reply::before {
 }
 
 .sharepost {
-    overflow: visible;
+ overflow: visible;
     text-align: center;
-    margin: 20px 2%;
-    min-height: 75px
+    margin: 10px 2%;
 }
 
-.sharepost i {display:block; 
+.sharepost i {
     margin-left: 5px;
     margin-right: 6px
 }
 
 .sharepost a {
-      padding: 7px 0;
+     padding: 10px 5px;
     color: #fff;
     display: inline-block;
-    border-radius: 6px;
+    text-align: center;
+    border-radius: 3px;
     margin-left: 1%;
-    width: 10%;
     margin-bottom: 5px;
-    min-width: 50px;
+    min-width: 40px;
 }
-
 .share-button.sb-blog {
     background-color: #efa265
 }
