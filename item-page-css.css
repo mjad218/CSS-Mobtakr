@@ -353,10 +353,9 @@ blockquote:before {
     background: #2467a7
 }
 .sharepost {
-    overflow: visible;
-    text-align: center;
-    margin: 20px 2%;
-    min-height: 75px
+ overflow: visible;
+    text-align: left;
+    margin: 10px 2%;
 }
 
 .sharepost i {display:block; 
@@ -365,14 +364,14 @@ blockquote:before {
 }
 
 .sharepost a {
-      padding: 7px 0;
+     padding: 10px 5px;
     color: #fff;
     display: inline-block;
-    border-radius: 6px;
+    text-align: center;
+    border-radius: 3px;
     margin-left: 1%;
-    width: 10%;
     margin-bottom: 5px;
-    min-width: 50px;
+    min-width: 40px;
 }
 
 .share-button.sb-blog {
