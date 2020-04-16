@@ -241,7 +241,7 @@ a.comment-reply::before {
 .sharepost {
  overflow: visible;
     text-align: center;
-    margin: 10px 2%;
+    margin: 30px 2%;
 }
 
 .sharepost i {
@@ -307,6 +307,8 @@ padding: 2px;}
 }
 .featured-box .socialdown {
     font-size: 17px;
+}footer.row-article {
+    padding: 30px 0;
 }
 @media screen and (min-width: 978px) { 
 
