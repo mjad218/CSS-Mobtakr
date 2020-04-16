@@ -352,6 +352,12 @@ blockquote:before {
 .linkedin {
     background: #2467a7
 }
+.eight-columns header .sharepost
+{
+    text-align: left;
+}
+
+
 .sharepost {
  overflow: visible;
     text-align: center;
