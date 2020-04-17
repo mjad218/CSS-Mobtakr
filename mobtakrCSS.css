@@ -1,4 +1,4 @@
-* {
+*{
 	box-sizing: border-box
 }
 #mainmenu::-webkit-scrollbar {
@@ -16,8 +16,11 @@ margin: 0 auto;
 body {
 	font: 14px/1.615em Tajawal!important;
 	background: #fafafa;
-	color: #222;  
-
+	color: #222; 
+	overflow-x: hidden !important;
+    scroll-behavior: smooth; 
+	margin: 0 ; 
+	padding: 0 ;
 }
 		.post-comments:before {
     content: '\f086';
