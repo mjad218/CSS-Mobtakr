@@ -515,8 +515,7 @@ overflow: unset;
     display: inline-block;
 }
 .sidebar {       padding: 0 2.12766% 0 0;    border-right: 1px solid #e6e6e6;
-    overflow: hidden;
-    width: 28%;
+    width: 28%;    min-height: 9022px;
     vertical-align: top;
     display: inline-block;
 
