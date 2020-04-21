@@ -493,6 +493,10 @@ overflow: unset;
 	
 
 @media only screen and (min-width: 978px) {
+	.sticky-div {position: sticky !important;
+    top: 30px;
+    position: -webkit-sticky;
+}
 	.up-arrow {
     position: fixed;
     bottom: 50px;
