@@ -447,7 +447,6 @@ form#searchbox {
 .sidebar {
 border-right: none;
 width: 100%;
-	  height: auto !important;
 margin: 0;
 overflow: unset;
 	padding: 0 20px
@@ -491,7 +490,15 @@ overflow: unset;
 	margin: 0 auto; max-width: 768px;
 
 	}
+@media only screen and (max-width: 978px) {
+
 	
+.sidebar {
+	  height: auto !important; 
+	} 
+
+
+} 
 
 @media only screen and (min-width: 978px) {
 	.sticky-div {position: sticky !important;
