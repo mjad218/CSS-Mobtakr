@@ -447,6 +447,7 @@ form#searchbox {
 .sidebar {
 border-right: none;
 width: 100%;
+	  height: auto !important;
 margin: 0;
 overflow: unset;
 	padding: 0 20px
@@ -519,7 +520,7 @@ overflow: unset;
     display: inline-block;
 }
 .sidebar {       padding: 0 2.12766% 0 0;    border-right: 1px solid #e6e6e6;
-    width: 28%;    min-height: 9022px;
+    width: 28%;  
     vertical-align: top;
     display: inline-block;
 
