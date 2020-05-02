@@ -66,8 +66,7 @@ a {
 .header_main_wrapper {
     border-bottom: 1px solid #e6e6e6;
     width: 100%;
-    background: #fff;
-    padding: 15px 0 0 0;
+    background: #fff
 }
 span.fn {
     float: right;
