@@ -466,10 +466,7 @@ overflow: unset;
 	.menu-item {
 		display: block
 	}
-	.contentproduct img {
-		width:50% !important;
-		margin: 15px 10px!important
-	}
+
 .eight-columns {
 		padding-left: 0;
 		border-left: none;
