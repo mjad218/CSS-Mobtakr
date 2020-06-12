@@ -370,14 +370,12 @@ blockquote:before {
 }
 
 .sharepost a {
-     padding: 10px 5px;
+    padding: 5px 5px;
     color: #fff;
     display: inline-block;
     text-align: center;
-    border-radius: 3px;
-    margin-left: 1%;
+    border-radius: 2px;
     margin-bottom: 5px;
-    min-width: 40px;
 }
 
 .share-button.sb-blog {
