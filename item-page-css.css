@@ -217,9 +217,7 @@ blockquote:before {
         display: block;
     margin-top: 8px;
     padding: 18px 0px 20px 0;
-    font-size: 28px;
-    font-family: rakkas;
-}
+    font-size: 28px;}
 
 .post-body,
 .post-body div,
@@ -582,7 +580,6 @@ span.thread-toggle a:before {
 span.pric3e {
     background-color: #43e672;
     border-radius: 5px;
-    font-family: rakkas;
     width: fit-content;
     text-align: center;
     font-size: 13px!important;
@@ -654,7 +651,6 @@ span.pric3e:before {
 span.buyamazon {
     background-color: #e0c038;
     border-radius: 5px;
-    font-family: rakkas;
     width: fit-content;
     text-align: center;
     font-size: 13px!important;
@@ -675,7 +671,6 @@ span.buyamazon a:before {
 span.buysouq {
     background-color: #51b0ff;
     border-radius: 5px;
-    font-family: rakkas;
     width: fit-content;
     text-align: center;
     font-size: 13px!important;
