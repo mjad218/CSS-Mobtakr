@@ -78,7 +78,6 @@ span.fn {
     padding: 10px 5px;}
 .menu-footer {
     display: inline-block;
-    font-family: rakkas;
     margin-left: 15px;
     color: #c5c5c5;
 }.header-top-left {
@@ -151,8 +150,7 @@ div#FeaturedPost1 p {
     margin-bottom: 25px;
 }
 .menu-item a {
-    font-family: rakkas;
-    color: #000000;
+font-weight:bold;    color: #000000;
     display: block;
     font-size: 13px;
     line-height: 48px;
@@ -178,7 +176,7 @@ div#FeaturedPost1 p {
 
 }
 .contact-form-button-submit, .follow-by-email-submit {
-	    font-family: rakkas;    cursor: pointer;
+	  cursor: pointer;
     height: 40px;
     width: 100%;
     background: #55a797;
@@ -359,7 +357,6 @@ input.follow-by-email-address, .follow-by-email-inner {
 	text-align: center;
 	font-size: 20px;
 	display: block;
-	font-family: rakkas
 }
 .dropbtn { 
     line-height: 43px;
