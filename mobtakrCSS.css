@@ -505,16 +505,16 @@ overflow: unset;
 }
 	.row {
 	width: 100%;
-	max-width: 1100px;
+	max-width: 1140px;
 	margin: 0 auto;
 }
 .eight-columns {
     padding-left: 15px;
-    width: 68%;
+    width: 71%;
     display: inline-block;
 }
-.sidebar {       padding: 0 2.12766% 0 0;    border-right: 1px solid #e6e6e6;
-    width: 28%;  
+.sidebar {       padding: 0 20px 0 0;    border-right: 1px solid #e6e6e6;
+    width: 25%;  
     vertical-align: top;
     display: inline-block;
 
