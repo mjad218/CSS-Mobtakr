@@ -336,8 +336,8 @@ blockquote:before {
 
 .sharepost a:hover {
     text-decoration: none!important;
-    opacity: .7
-}
+    padding: 5px 35px;
+    color: #fff;}
 .share-button.sb-facebook {
     background-color: #4769a5
 }
@@ -367,8 +367,8 @@ blockquote:before {
     margin-right: 6px
 }
 
-.sharepost a {
-    padding: 5px 5px;
+.sharepost a {    font-weight: 500;
+    padding: 5px 15px;
     color: #fff;
     display: inline-block;
     text-align: center;
