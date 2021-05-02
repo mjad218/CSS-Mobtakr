@@ -45,7 +45,7 @@ containerDiv = "featured-posts"
 
 }
 
- function display_related_posts(json) {
+ function display_related_posts() {
                    
                    for ( post_titles = new Array, post_comments = new Array, author_image= new Array, post_summary = new Array, post_time = new Array, post_authors= new Array, post_tags = new Array, post_num = 0, post_urls = new Array, post_thumbnail_url = new Array, i = 0; i < json.feed.entry.length; i++) {
                        var feed_entry = json.feed.entry[i];
