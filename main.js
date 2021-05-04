@@ -217,15 +217,8 @@ var text_comments = document.createTextNode(post_comments[random_entry]);
 
             });
 	
-		
 
-
-
-			setTimeout(()=>{
-            console.log("Hello from related function");
-            resolve();
-        ;} , 5000
-        );
+			
     });
 }) ();
 }
