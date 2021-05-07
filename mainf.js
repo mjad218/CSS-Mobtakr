@@ -1,4 +1,11 @@
+             
+               /*<![CDATA[*/
 
+     
+             
+   
+             
+              /*<![CDATA[*/
 
       var templateUsers;
             
@@ -614,7 +621,7 @@ var text_comments = document.createTextNode(post_comments[random_entry]);
 
 // begin menu &amp; search functions 
 
-
+   // <![CDATA[
 
 if (pageType != "static_page") {
  var elmnt = document.getElementById("myMain");
@@ -850,6 +857,20 @@ document.getElementById("template-promotion").style.transform="translateY(136px)
 
 }
 
+const toggleSwitch = document.querySelector('#header-ups input[type="checkbox"]');
+
+if (localStorage.theme) {
+  toggleSwitch.checked = localStorage.theme === "dark";
+}
+
+function switchTheme(e) {
+  const theme = e.target.checked ? "dark" : "light";
+  document.documentElement.setAttribute("data-theme", theme);
+  localStorage.theme = theme;
+}
+
+toggleSwitch.addEventListener("change", switchTheme);
+
 
         
        // image optimization 
@@ -874,6 +895,5 @@ console.log(imgSRC);}
 
 console.log(document.lastModified);
 
-       
+               /*]]>*/
 
-    
