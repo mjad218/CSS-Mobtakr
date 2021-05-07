@@ -850,20 +850,6 @@ document.getElementById("template-promotion").style.transform="translateY(136px)
 
 }
 
-const toggleSwitch = document.querySelector('#header-ups input[type="checkbox"]');
-
-if (localStorage.theme) {
-  toggleSwitch.checked = localStorage.theme === "dark";
-}
-
-function switchTheme(e) {
-  const theme = e.target.checked ? "dark" : "light";
-  document.documentElement.setAttribute("data-theme", theme);
-  localStorage.theme = theme;
-}
-
-toggleSwitch.addEventListener("change", switchTheme);
-
 
         
        // image optimization 
