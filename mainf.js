@@ -6,7 +6,7 @@
    
              
               /*<![CDATA[*/
-
+document.getElementById("loader").style.display= "none"; 
       var templateUsers;
             
                           var isValid = 0;
