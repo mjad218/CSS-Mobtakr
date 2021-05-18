@@ -130,7 +130,7 @@ console.log(containerDiv);
  relatedpoststitle = (window.location.href, "مقالات من " + myLabelName_1); 
 
 containerDiv = "featured-posts" ;
-             max_related_entries = 4;
+             max_related_entries =  3 ;
 
 console.log(containerDiv);  
 
