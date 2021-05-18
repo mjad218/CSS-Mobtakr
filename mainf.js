@@ -1,6 +1,3 @@
-             
-            
-       
         //<![CDATA[
 
 if (pageType == "item") {
@@ -55,14 +52,40 @@ var myPosts = new Array();
 
        var fetchLabelURL = homePage  +"/feeds/posts/default/-/" + myLabelName_1 + "?alt=json-in-script&max-results=100"; 
 console.log(fetchLabelURL);
-        $.ajax({
-			url: fetchLabelURL,
-			cashe: true,
-			    type: 'get',
-    dataType: "jsonp",
-			success: function(data, status) {
-				
-				 console.log("Success Handling The Fetch Related ", )  ;
+   
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'jsonp';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        callback(null, xhr.response);
+      } else {
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+};
+
+
+
+getJSON(fetchLabelURL,
+function(err, data) {
+  if (err === null) {
+  
+                   console.log(data); 
+console.log(typeof(data));
+
+ data = data.replace('gdata.io.handleScriptLoaded(','');
+
+data = data.substring(0, data.length-2);
+
+ data = JSON.parse(data);
+                   console.log(data + "nn"); 
+console.log(typeof(data)  + "nn");
+
+
 
 
 
@@ -107,7 +130,7 @@ console.log(containerDiv);
  relatedpoststitle = (window.location.href, "مقالات من " + myLabelName_1); 
 
 containerDiv = "featured-posts" ;
-             max_related_entries = 3;
+             max_related_entries = 4;
 
 console.log(containerDiv);  
 
@@ -268,7 +291,7 @@ var readalso =   document.getElementById("post-body").childNodes[4] ;
      containerDiv.setAttribute("class" , "read-also"); 
 
 console.log(data); 
-                   for ( post_titles = new Array, post_comments = new Array, author_image= new Array, post_summary = new Array, post_time = new Array, post_authors= new Array, post_tags = new Array, post_num = 0, post_urls = new Array, post_thumbnail_url = new Array, i = 0; i < data.feed.entry.length; i++) {
+                   for ( post_titles = new Array, post_comments = new Array, author_image= new Array, post_summary = new Array, post_time = new Array, post_authors= new Array, post_tags = new Array, post_num = 0, post_urls = new Array, post_thumbnail_url = new Array, i = 3; i < data.feed.entry.length; i++) {
                        var feed_entry = data.feed.entry[i];
                        post_titles[post_num] = feed_entry.title.$t;
                                post_tags[post_num] = feed_entry.category[0].term;
@@ -364,14 +387,11 @@ console.log(pin) ;
 
 // end read also
 
+} else {
 
+    alert('Something went wrong: ' + err);
 
-									},
-			error: function(xhr, textStatus, err) {
-// error 
- console.log("Error Handling The Fetch Related " , err , textStatus)  ;
-   
-}
+  }
 
 
             });
@@ -400,20 +420,31 @@ console.log(pin) ;
 (function sliderP(){
     return new Promise((resolve,reject)=>{
 
-                    
-
        var fetchSliderURL = homePage  + "feeds/posts/default/?alt=json-in-script&max-results=100"; 
 console.log(fetchSliderURL);
-        $.ajax({
-			url: fetchSliderURL,
-			cashe: true,
-			    type: 'get',
-    dataType: "jsonp",
-			success: function(data, status) {
-				
-				 console.log("Success Handling The Fetch Related ", )  ;
 
 
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'jsonp';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        callback(null, xhr.response);
+      } else {
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+};
+
+
+
+getJSON(fetchSliderURL,
+function(err, data) {
+  if (err === null) {
+  
 
   if (screen.width < 485) {
 
@@ -451,9 +482,18 @@ containerDiv = "slider-above" ;
              max_entries = 5;
 
 console.log(containerDiv);  
-
-
                    console.log(data); 
+console.log(typeof(data));
+
+ data = data.replace('gdata.io.handleScriptLoaded(','');
+
+data = data.substring(0, data.length-2);
+
+ data = JSON.parse(data);
+                   console.log(data + "nn"); 
+console.log(typeof(data)  + "nn");
+
+
                    for ( post_titles = new Array, post_comments = new Array, author_image= new Array, post_summary = new Array, post_time = new Array, post_authors= new Array, post_tags = new Array, post_num = 0, post_urls = new Array, post_slider_url = new Array, i = 0; i < data.feed.entry.length; i++) {
                        var feed_entry = data.feed.entry[i];
                        post_titles[post_num] = feed_entry.title.$t;
@@ -510,21 +550,17 @@ console.log(post_slider_url[random_entry]) ;
 console.log(pin) ; 
 
 
-
-
-
-               var lp_tag = document.createElement("span");
-                          lp_tag.setAttribute("id", "lp-tag-" + iteration), lp_tag.setAttribute("class", "lp-tag"), document.getElementById("lp_container-" + iteration).appendChild(lp_tag);
+        var lp_tag = document.createElement("span");
+                          lp_tag.setAttribute("id", "lp-tag-" + iteration), lp_tag.setAttribute("class", "lp-tag"), document.getElementById("lp-anchor-" + iteration).appendChild(lp_tag);
                 var text_tag = document.createTextNode(post_tags[random_entry]);
                document.getElementById("lp-tag-" + iteration).appendChild(text_tag);
-               
                
                    var lp_para = document.createElement("p");
                            lp_para.setAttribute("id", "lp-para-" + iteration);
                            var textnode = document.createTextNode(post_titles[random_entry]);
                            lp_para.appendChild(textnode), document.getElementById("lp-anchor-" + iteration).appendChild(lp_para) ;
                
-               
+
                var lp_meta = document.createElement("p");
                 lp_meta.setAttribute("class", "lp-meta"),  lp_meta.setAttribute("id", "lp-meta-" + iteration), document.getElementById("lp-anchor-" + iteration).appendChild(lp_meta);
                
@@ -556,21 +592,16 @@ var text_comments = document.createTextNode(post_comments[random_entry]);
               
 
 
+} else {
+
+    alert('Something went wrong: ' + err);
+
+  }
 
 
 
+});
 
-
-									},
-			error: function(xhr, textStatus, err) {
-// error 
- console.log("Error Handling The Fetch Related " , err , textStatus)  ;
-   
-}
-
-
-            });
-	
 
     });
 }) ();
@@ -592,14 +623,40 @@ var text_comments = document.createTextNode(post_comments[random_entry]);
        var fetchfeaturedAbovePURL = homePage  +"/feeds/posts/default/-/" + myLabelName_3 + "?alt=json-in-script&max-results=100"; 
 
 console.log(fetchfeaturedAbovePURL);
-        $.ajax({
-			url: fetchfeaturedAbovePURL,
-			cashe: true,
-			    type: 'get',
-    dataType: "jsonp",
-			success: function(data, status) {
-				
-				 console.log("Success Handling The Fetch Related ", )  ;
+
+
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'jsonp';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        callback(null, xhr.response);
+      } else {
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+};
+
+
+
+getJSON(fetchfeaturedAbovePURL,
+function(err, data) {
+  if (err === null) {
+  
+                   console.log(data); 
+console.log(typeof(data));
+
+ data = data.replace('gdata.io.handleScriptLoaded(','');
+
+data = data.substring(0, data.length-2);
+
+ data = JSON.parse(data);
+                   console.log(data + "nn"); 
+console.log(typeof(data)  + "nn");
+
 
 
 
@@ -752,20 +809,12 @@ var text_comments = document.createTextNode(post_comments[random_entry]);
                    post_urls.splice(0, post_urls.length), post_slider_url.splice(0, post_slider_url.length), post_titles.splice(0, post_titles.length)
               
 
+			
+} else {
 
+    alert('Something went wrong: ' + err);
 
-
-
-
-
-									},
-			error: function(xhr, textStatus, err) {
-// error 
- console.log("Error Handling The Fetch Related " , err , textStatus)  ;
-   
-}
-
-
+  }
             });
 	
 
@@ -791,14 +840,40 @@ var text_comments = document.createTextNode(post_comments[random_entry]);
        var fetchfeaturedDownPURL = homePage  +"/feeds/posts/default/-/" + myLabelName_5 + "?alt=json-in-script&max-results=100"; 
 
 console.log(fetchfeaturedDownPURL);
-        $.ajax({
-			url: fetchfeaturedDownPURL,
-			cashe: true,
-			    type: 'get',
-    dataType: "jsonp",
-			success: function(data, status) {
-				
-				 console.log("Success Handling The Fetch Related ", )  ;
+       
+var getJSON = function(url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'jsonp';
+    xhr.onload = function() {
+      var status = xhr.status;
+      if (status === 200) {
+        callback(null, xhr.response);
+      } else {
+        callback(status, xhr.response);
+      }
+    };
+    xhr.send();
+};
+
+
+
+getJSON(fetchfeaturedDownPURL,
+function(err, data) {
+  if (err === null) {
+  
+                   console.log(data); 
+console.log(typeof(data));
+
+ data = data.replace('gdata.io.handleScriptLoaded(','');
+
+data = data.substring(0, data.length-2);
+
+ data = JSON.parse(data);
+                   console.log(data + "nn"); 
+console.log(typeof(data)  + "nn");
+
+
 
 
 
@@ -835,7 +910,7 @@ else if (screen.width < 978 && screen.width > 485  ) {
               
 
 containerDiv = "featured-down" ;
-             max_entries = 4 ;
+             max_entries = 7 ;
 
 
 console.log(containerDiv);  
@@ -951,12 +1026,11 @@ var text_comments = document.createTextNode(post_comments[random_entry]);
 
 
 
-									},
-			error: function(xhr, textStatus, err) {
-// error 
- console.log("Error Handling The Fetch Related " , err , textStatus)  ;
-   
-}
+									} else {
+
+    alert('Something went wrong: ' + err);
+
+  }
 
 
             });
@@ -1052,15 +1126,16 @@ if (pageType == "item") {
 var didScroll;
 var lastScrollTop = 0;
 var delta = 30;
-var navbarHeight = $('#header-ups').outerHeight();
+var navbarHeight = document.getElementById("header-ups").offsetHeight; 
 
-if($('alertBar').length) {
-  var alertHeight = $('alertBar').outerHeight();
-} else {
-  var alertHeight = 0;
-}
+var body = document.body,
+    html = document.documentElement;
 
-$(window).scroll(function(event){
+var documentHeight = Math.max( body.scrollHeight, body.offsetHeight, 
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+
+
+window.onscroll = (function(event){
   didScroll = true;
 });
 
@@ -1072,7 +1147,7 @@ setInterval(function() {
 }, 50);
 
 function hasScrolled() {
-  var st = $(this).scrollTop();
+  var st = window.scrollY; 
 
   // Make sure they scroll more than delta
   if(Math.abs(lastScrollTop - st) <= delta)
@@ -1080,17 +1155,21 @@ function hasScrolled() {
 
   // If they scrolled down and are past the navbar, add class .nav-up.
   // This is necessary so you never see what is "behind" the navbar.
+
   if (st > lastScrollTop && st > navbarHeight) {
     // Scroll Down, hide nav
-    $('#header-ups').addClass('gescout-sticky').removeClass('gescout-show');
+    document.getElementById("header-ups").classList.add('gescout-sticky');
+document.getElementById("header-ups").classList.remove('gescout-show');
   } else {
     // Scroll Up, show nav
-    if(st + $(window).height() < $(document).height()) {
-      $('#header-ups').addClass('gescout-show');
+    if(st + window.innerHeight < documentHeight ) {
+
+      document.getElementById("header-ups").classList.add('gescout-show');
     }
     // if scrolled up to the top again
     if(st <= navbarHeight) {
-      $('#header-ups').removeClass('gescout-sticky').addClass('gescout-show');
+      document.getElementById("header-ups").classList.remove('gescout-sticky');
+			document.getElementById("header-ups").classList.add('gescout-show');
 
     }
 
